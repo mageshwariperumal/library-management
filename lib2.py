@@ -16,8 +16,9 @@ print("name:",a)
 print("age:",b)
 print("phone no:",c)
 print("address:",d)
-for i in range(5):
-    print(i)
+print("**************************************************************************")
+e=int(input("Enter 1 to continue or 0 to exit:"))
+while(e==1):
     print("-------------------------------------------------------------")
     wh=int(input("enter the genre type in choice:"))
     if(wh==1):
@@ -50,9 +51,12 @@ for i in range(5):
                 print("overview: A murderous sociopath, Edgler Foreman Vess, has entered the house, intent on killing everyone inside. A self-proclaimed “homicidal adventurer,” Vess lives only to satisfy all appetites as they arise, to immerse himself in sensation, to live without fear, remorse, or limits, to live with intensity")
             else:
                 print("not option sorry")
-            break;
-        
-    if(wh==2):
+            wa=int(input("enter 1 to continue or 0 to exit"))
+            if(wa==1):
+                continue
+            else:
+                break
+    elif(wh==2):
         print("2.Fiction")
         print("---------------")
         print("1.Don Quixote")
@@ -81,8 +85,12 @@ for i in range(5):
                 print("overview:From acclaimed mystery author Agatha Christie, And Then There Were None is a mastery of tension. A quirky millionaire hosts a gathering of eight strangers on a private island off of the English coast. When the guests arrive, the elusive host is nowhere to be found. In his place, however, is the accusation of murder upon each of the guests.")
             else:
                 print("not option sorry")
-            break;
-    if(wh==3):
+            wa=int(input("enter 1 to continue or 0 to exit"))
+            if(wa==1):
+                continue
+            else:
+                break
+    elif(wh==3):
         print("3.Mystery")
         print("---------------")
         print("1.The Big Sleep ")
@@ -111,8 +119,12 @@ for i in range(5):
                 print("overview:It follows lawyer Paul Biegler and his defense of Frederick Manion, who’s accused of murdering an innkeeper. While the case is overwhelmingly against Manion, his unreliable behavior leaves room for challenges against conviction, and that’s where Biegler and his seemingly laid-back attitude comes in. This thrilling courtroom drama will keep you on the edge of your seat, wondering how this lawyer can argue such an impossible case. ")
             else:
                 print("not option sorry")
-            break;
-    if(wh==4):
+            wa=int(input("enter 1 to continue or 0 to exit"))
+            if(wa==1):
+                continue
+            else:
+                break
+    elif(wh==4):
         print("4.Fantasy")
         print("---------------")
         print("1.GAME OF THRONES ")
@@ -141,8 +153,12 @@ for i in range(5):
                 print("overview:While Gaiman’s short stories are my personal favorites of his writings, most fiction readers meet him through his novels. American Gods reimagines myths and gods in the modern age, mashes them up with Americana, and takes you on a road trip. I can see why this is one of his most famous works")
             else:
                 print("not option sorry")
-            break;
-    if(wh==5):
+            wa=int(input("enter 1 to continue or 0 to exit"))
+            if(wa==1):
+                continue
+            else:
+                break
+    elif(wh==5):
         print("5.Horror")
         print("---------------")
         print("1.NINETEEN EIGHTY-FOUR")
@@ -171,4 +187,16 @@ for i in range(5):
                 print("overview:Set in a magnificent, coastal vacation home in the middle of summer, this novel is the other side of The Shining‘s wintry, landlocked coin. The story here centers on the Rolfes: a family of city-dwellers looking for a peaceful summer getaway. What they find, however, is anything but.")
             else:
                 print("not option sorry")
-            break;
+            wa=int(input("enter 1 to continue or 0 to exit"))
+            if(wa==1):
+                continue
+            else:
+                break
+    else:
+        print("invalid")
+    print("*************************************************************************************************************************")
+    f=int(input("Enter 1 to continue or 0 to exit:"))
+    if(f==1):
+        continue
+    else:
+        break
